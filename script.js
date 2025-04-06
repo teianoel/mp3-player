@@ -116,7 +116,8 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 //fix: press play then pause then go forward or backwards and 
-// then back to the song you had paused, it resumes where you left off...
+//then back to the song you had paused, it resumes where you left off...
+//understand fix for above
 //volume toggle
 //song progression bar
 //menu page
