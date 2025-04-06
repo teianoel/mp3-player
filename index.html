@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teia_mp3</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="player-container">
+        <div class="image-container">
+            <img src="./i_said_i_love_you_first.png" alt="Image 1" class="album-art" data-index="0">
+            <img src="./BRAT.png" alt="Image 2" class="album-art hidden" data-index="1">
+            <img src="./hotline_billie.png" alt="Image 3" class="album-art hidden" data-index="2">
+            <img src="./now_that_youre_gone.png" alt="Image 4" class="album-art hidden" data-index="3">
+        </div>
+
+        <audio src="./call_me_when_you_break_up.m4v" alt="Song 1" class="song" data-index="0"></audio>
+        <audio src="./_365.m4a" alt = "Song 2" class="song" data-index="1"></audio>
+        <audio src="./hotline_billie.m4a" alt = "Song 3" class="song" data-index="2"></audio>
+        <audio src="./now_that_youre_gone.m4a" alt = "Song 4" class="song" data-index="3"></audio>
+
+        <div class="player-controls">
+            <button id="reverse-button"><img src="./pink_rewind_button.png" alt="Reverse"></button>
+            <button id="play-pause-button">
+                <img src="./pink_play_button.png" alt="Play" class="play-icon">
+                <img src="./pink_pause_button.png" alt="Pause" class="pause-icon hidden">
+            </button>
+            <button id="forward-button"><img src="./pink_ff_button.png" alt="Fast Forward"></button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
